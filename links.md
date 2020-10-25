@@ -2,7 +2,7 @@
 layout: default
 title: "Links-Webs(fuentes)"
 ---
--------[Inicio/Home](./index.html)-------[Posts-Guias-Por-Fecha-Publicacion](./posts.html)-------[Posts-Guias-Por-Categorias](./categorias.html)-------[Links](./links.html)-------
+-------[Inicio/Home](./index.html)-------[Posts-Guias-Por-Fecha-Publicación](./posts.html)-------[Posts-Guias-Por-Categorias](./categorias.html)-------[Links](./links.html)-------
 # Links
 
 URLS interesantes acerca de tips , guias , noticias interesantes..etc. 
