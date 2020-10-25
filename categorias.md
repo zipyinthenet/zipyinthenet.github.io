@@ -53,6 +53,8 @@ layout: default
 ### Raspberrypi
 
 ### Others
+* [ primer-post-20201025 ](./posts/primer-post-20201025.html)
+
 #### Tools/Herramientas
 #### Estudios
 #### Libros
