@@ -6,7 +6,7 @@ layout: default
 ## Primer-Post-20201025
 
 
-#Plantilla para utilizar y crear nuevos posts.
+# Plantilla para utilizar y crear nuevos posts.
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
