@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
--------[Incio/Home](./index.html).-------[Posts](./posts.html).------[Links](./links.html).-------
+-------[Inicio/Home](./index.html).-------[Posts-Guias](./posts.html).------[Links](./links.html).-------
 # Bienvenidos al sitio Web de Zipyinthenet 
 
 Hola !
