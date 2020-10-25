@@ -6,6 +6,8 @@ layout: default
 
 ### Administración de Sistemas Operativos (sistemas de información - todo tipo)
 #### DOCKER
+* [ instalación-docker-en-centOS7-20201025 ](./posts/instalación-docker-en-centOS7-20201025.html)
+
 #### NTP / CHRONY
 
 ### Seguridad y Alta Disponibilidad
