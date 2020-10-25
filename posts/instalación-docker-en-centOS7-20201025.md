@@ -49,8 +49,9 @@ Próximos capítulos , configuración de docker en el sistema..
 
 Fuentes:
 
-[install-using-the-convenience-script](https://docs.docker.com/engine/install/centos/#install-using-the-convenience-script)
+* [install-using-the-convenience-script](https://docs.docker.com/engine/install/centos/#install-using-the-convenience-script)
 
+Video:
 * [Instalar Docker en CentOS 7 o Fedora](https://www.youtube.com/watch?v=xkIJH-swqPc)
 
 -----------------------------------------------------------------------------
