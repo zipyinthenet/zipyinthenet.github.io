@@ -2,6 +2,7 @@
 layout: default
 ---
 -------[Inicio/Home](./index.html)-------[Posts-Guias-Por-Fecha-Publicación](./posts.html)-------[Posts-Guias-Por-Categorias](./categorias.html)-------[Links](./links.html)-------
+
 # Posts - Ordenados por Fecha de Publicación
 
 * [ smtp-relay-server-con-postfix-20201027 ](./posts/smtp-relay-server-con-postfix-20201027.html)

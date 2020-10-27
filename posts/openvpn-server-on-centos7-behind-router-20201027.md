@@ -3,7 +3,7 @@ layout: default
 ---
 -------[Inicio/Home](./../index.html)-------[Posts-Guias-Por-Fecha-Publicación](./../posts.html)-------[Posts-Guias-Por-Categorias](./../categorias.html)-------[Links](./../links.html)-------
 
-## openvpn-server-on-centos7-behind-router-20201027
+## openvpn-server-on-centos7-behind-router
 
 Se ha escogido para realizar la tarea Openvpn ya que ofrece la posibilidad de ajustarse a un montón de configuraciones y escenarios que requiera la red y los servidores o máquinas que requieran conexión. La documentación es muy extensa y la comunidad es muy proactiva por tanto es un punto a favor. Otro punto a favor es la documentación y ejemplos que ya trae con comentarios que explica cómo funcionan los ficheros. El uso de easy rsa al principio puede ser un poco lioso ya que la documentación de openvpn en la web oficial está realizada tanto para linux como windows. En cuanto a easy-rsa, el script y versión es mayor a la especificada en la documentación openvpn pero mediante la ayuda que trae el comando es fácil acabar de comprender su uso. Por último me gustaría destacar que openvpn es muy potente pero requiere de un estudio de implementación mediante iptables para manejar las rutas de los host mediante el firewall de las máquinas donde esté instalado openvpn, en este caso solo en el servidor, pero en otro aspecto podría ser en un router de enlace punto a punto. 
 
