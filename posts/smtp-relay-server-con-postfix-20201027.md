@@ -2,7 +2,8 @@
 layout: default
 ---
 -------[Inicio/Home](./../index.html)-------[Posts-Guias-Por-Fecha-Publicación](./../posts.html)-------[Posts-Guias-Por-Categorias](./../categorias.html)-------[Links](./../links.html)-------
-## Welcome to another page
+
+## smtp-relay-server-con-postfix
 
 Esta vez vamos a realizar un servidor de correo SMTP (solo de SMTP), con la finalidad de enviar correos con una cuenta de GMAIL (se podria conf para otros dominios , supongo). La idea realmente es parecida a la siguiente forma de verlo conceptualmente , el servidor SMTP que tengamos en la red Local , enviara los correos salientes al servidor SMTP de GMAIL y los enviara a la bandeja de salida de el servidor SMTP de GMAIL. El servidor de GMAIL confiara en nuestro servidor SMTP ya que al fin y al cabo , nuestro servidor SMTP local esta funcionando como un cliente mas de esa cuenta de GMAIL. Pero en vez de enviar los correos por la bandeja de salida de un cliente web de gmail , o un cliente de escritorio de gmail , es el servidor local smtp el que enviar al servidor smtp de gmail y gmail reenvía a el destinatario y ahí ya entraría … los servidores pop o imap o servidores smtp de otros dominios/organizaciones…etc.
 
