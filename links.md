@@ -5,6 +5,8 @@ title: "Links-Webs(fuentes)"
 -------[Inicio/Home](./index.html)-------[Posts-Guias-Por-Fecha-Publicación](./posts.html)-------[Posts-Guias-Por-Categorias](./categorias.html)-------[Links](./links.html)-------
 # Links
 
+* * *
+
 URLS interesantes acerca de tips , guiás , noticias interesantes..etc. 
 
 Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas de información (pueden que haya links duplicados , pero opino que deben estar en una o muchas[n] categorías).
