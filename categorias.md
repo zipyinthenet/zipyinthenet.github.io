@@ -10,6 +10,8 @@ layout: default
 
 #### NTP / CHRONY
 
+* * *
+
 ### Seguridad y Alta Disponibilidad
 #### Secure Services
 #### SSL / TLS
@@ -22,19 +24,31 @@ layout: default
 #### Altertas/Notificaciones
 #### Cortafuegos o Firewall
 
+* * *
+
 ### Administración de Sistemas Gestores de Bases De Datos
 
+* * *
+
 ### Implantaciones de Aplicaciones Web
+
+* * *
 
 ### Servicios de Red e Internet
 #### SMTP
 * [ smtp-relay-server-con-postfix-20201027 ](./posts/smtp-relay-server-con-postfix-20201027.md)
 
+* * *
+
 ### Lenguajes de Marcas y Sistemas de Gestión de Información
 #### Jekyll
 #### Control de Versiones
 
+* * *
+
 ### Gestión de Bases de Datos
+
+* * *
 
 ### Fundamentos de Hardware
 #### Tools Copias / Backups Sistema particiondedisco o VM
@@ -42,11 +56,17 @@ layout: default
 #### Hardware Redes
 #### Hardware Redes WiFi
 
+* * *
+
 ### Planificación y Administración de Sistemas de Red (Redes)
+
+* * *
 
 ### Implantación de Sistemas Operativos
 #### OpenMediaVault
 #### SmoothWall Express
+
+* * *
 
 ### Aplicaciones Ofimaticas
 #### Procesadores de Texto
@@ -55,7 +75,11 @@ layout: default
 #### Gestores de bases de datos
 #### Gestores de correo electrónico
 
+* * *
+
 ### Raspberrypi
+
+* * *
 
 ### Others
 * [ primer-post-20201025 ](./posts/primer-post-20201025.html)
