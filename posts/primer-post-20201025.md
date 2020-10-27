@@ -8,25 +8,25 @@ layout: default
 
 # Plantilla para utilizar y crear nuevos posts.
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+Text can be **negrita**, _cursiva_, ~~tachado~~ or `fondonegro`.
 
-[Link to another page](./another-page.html).
+[ir a otra web](./another-page.html).
 
-There should be whitespace between paragraphs.
+Deben realizarse saltos del linea entre parrafos
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+# Cabecera 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## Header 2
+## Cabecera 2
 
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### Header 3
+### Cabecera 3
 
 ```js
 // Javascript code with syntax highlighting.
@@ -43,19 +43,19 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-#### Header 4
+#### Cabecera 4
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### Header 5
+##### Cabecera 5
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### Header 6
+###### Cabecera 6
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
@@ -64,18 +64,18 @@ end
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
 
-### There's a horizontal rule below this.
+### Linea horizontal abajo de esto.
 
 * * *
 
-### Here is an unordered list:
+### Lista desordenada:
 
 *   Item foo
 *   Item bar
 *   Item baz
 *   Item zip
 
-### And an ordered list:
+### Lista ORdenada:
 
 1.  Item one
 1.  Item two
@@ -98,16 +98,16 @@ end
   - level 2 item
 - level 1 item
 
-### Small image
+### peque imagen
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### Large image
+### gran imagen
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
-### Definition lists can be used with HTML syntax.
+### Definicion lista can be used with HTML syntax.
 
 <dl>
 <dt>Name</dt>
