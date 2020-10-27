@@ -14,9 +14,6 @@ Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas 
 ### Administración de Sistemas Operativos (sistemas de información - todo tipo)
 #### Links
 
-* [Mdadm create RAID-software LINUX](https://www.ducea.com/2009/03/08/mdadm-cheat-sheet/)
-* [Replacing a Failed Mirror Disk in a Software RAID Array (mdadm)](https://www.thegeekdiary.com/replacing-a-failed-mirror-disk-in-a-software-raid-array-mdadm/)
-* [RedHat / CentOS : Managing software RAID with mdadm](https://www.thegeekdiary.com/redhat-centos-managing-software-raid-with-mdadm/)
 * [How configure X11 Forwarding in CentOS/RHEL 6/7](https://prasadlinuxblog.wordpress.com/2018/05/29/how-configure-x11-forwarding-in-centos-rhel-6-7/)
 * [How to Mount a NTFS Drive on CentOS / RHEL / Scientific Linux](https://www.howtoforge.com/tutorial/mount-ntfs-centos/)
 * [Command line reference](https://ss64.com/)
@@ -32,6 +29,11 @@ Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas 
 * [introduccion-a-firewalld-en-centos](https://docs.bluehosting.cl/tutoriales/servidores/introduccion-a-firewalld-en-centos.html)
 * [open-source-firewall](https://geekflare.com/best-open-source-firewall/)
 * [Modulos Kernel Linux](https://geekland.eu/gestionar-modulos-del-kernel-linux/)
+
+#### RAID SOFTWARE
+* [Mdadm create RAID-software LINUX](https://www.ducea.com/2009/03/08/mdadm-cheat-sheet/)
+* [Replacing a Failed Mirror Disk in a Software RAID Array (mdadm)](https://www.thegeekdiary.com/replacing-a-failed-mirror-disk-in-a-software-raid-array-mdadm/)
+* [RedHat / CentOS : Managing software RAID with mdadm](https://www.thegeekdiary.com/redhat-centos-managing-software-raid-with-mdadm/)
 
 #### ANSIBLE
 * [Ansible: Qué es AWX](https://www.jorgedelacruz.es/2018/08/15/ansible-que-es-awx-instalacion-configuracion-playbooks-para-windows-y-linux-y-mucho-mas/)
