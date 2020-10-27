@@ -9,7 +9,7 @@ layout: default
 ### Administración de Sistemas Operativos (sistemas de información - todo tipo)
 
 #### TERMINALES/CONSOLAS/TIPOS DE SHELL'S
-* [ubuntu-bash-w10](./posts/ubuntu-bash-w10-20201027.html)
+* [ ubuntu-bash-w10-20201027 ](./posts/ubuntu-bash-w10-20201027.html)
 
 #### DOCKER
 * [ instalación-docker-en-centOS7-20201025 ](./posts/instalación-docker-en-centOS7-20201025.html)
@@ -21,7 +21,7 @@ layout: default
 ### Seguridad y Alta Disponibilidad
 #### Secure Services
 #### SSL / TLS
-* [crear-ssl-certificates-auto-self-signed](./posts/crear-ssl-certificates-auto-self-signed-20201027.html)
+* [ crear-ssl-certificates-auto-self-signed-20201027 ](./posts/crear-ssl-certificates-auto-self-signed-20201027.html)
 
 #### WiFi
 #### CTF
