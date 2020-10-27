@@ -61,6 +61,7 @@ Pues vamos a realizar la magia con openssl y firmamos nuestra CA que vamos a cre
 ![x](https://miro.medium.com/max/700/0*J9DfkTBkTJ19xvEf)
 
 Por ultimo queridos amigos , tenemos una CA creada y la podemos listar en el directorio donde estamos…
+
 ![x](https://miro.medium.com/max/700/0*nEdyB5SVHi5mCg46)
 
 Acuérdate que por /etc/ssl… había un enlace simbólico o al revés y que vas a poder tener también allí la CA … la CA es el fichero que acaba en ‘crt’ y no ‘csr’
