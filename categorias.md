@@ -17,6 +17,8 @@ layout: default
 ### Seguridad y Alta Disponibilidad
 #### Secure Services
 #### SSL / TLS
+* [crear-ssl-certificates-auto-self-signed](./posts/crear-ssl-certificates-auto-self-signed-20201027.html)
+
 #### WiFi
 #### CTF
 #### Gestor de PASSWORDS
