@@ -17,6 +17,8 @@ layout: default
 #### CTF
 #### Gestor de PASSWORDS
 #### VPN
+* [ openvpn-server-on-centos7-behind-router-20201027 ](./posts/openvpn-server-on-centos7-behind-router-20201027.md)
+
 #### Altertas/Notificaciones
 #### Cortafuegos o Firewall
 
