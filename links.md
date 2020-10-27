@@ -13,7 +13,7 @@ Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas 
 
 ### Administración de Sistemas Operativos (sistemas de información - todo tipo)
 #### Links
-* [Ansible: Qué es AWX](https://www.jorgedelacruz.es/2018/08/15/ansible-que-es-awx-instalacion-configuracion-playbooks-para-windows-y-linux-y-mucho-mas/)
+
 * [Mdadm create RAID-software LINUX](https://www.ducea.com/2009/03/08/mdadm-cheat-sheet/)
 * [Replacing a Failed Mirror Disk in a Software RAID Array (mdadm)](https://www.thegeekdiary.com/replacing-a-failed-mirror-disk-in-a-software-raid-array-mdadm/)
 * [RedHat / CentOS : Managing software RAID with mdadm](https://www.thegeekdiary.com/redhat-centos-managing-software-raid-with-mdadm/)
@@ -32,6 +32,10 @@ Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas 
 * [introduccion-a-firewalld-en-centos](https://docs.bluehosting.cl/tutoriales/servidores/introduccion-a-firewalld-en-centos.html)
 * [open-source-firewall](https://geekflare.com/best-open-source-firewall/)
 * [Modulos Kernel Linux](https://geekland.eu/gestionar-modulos-del-kernel-linux/)
+
+#### ANSIBLE
+* [Ansible: Qué es AWX](https://www.jorgedelacruz.es/2018/08/15/ansible-que-es-awx-instalacion-configuracion-playbooks-para-windows-y-linux-y-mucho-mas/)
+* [Ansible User Guide](https://docs.ansible.com/ansible/latest/user_guide/index.html)
 
 #### DOCKER
 * [Docker en Fedora](https://tecadmin.net/install-docker-on-fedora/)
