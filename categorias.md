@@ -26,6 +26,8 @@ layout: default
 #### WiFi
 #### CTF
 #### Gestor de PASSWORDS
+* [ bitwarden-20201101 ](./posts/bitwarden-20201101.html)
+
 #### VPN
 * [ openvpn-server-on-centos7-behind-router-20201027 ](./posts/openvpn-server-on-centos7-behind-router-20201027.md)
 
