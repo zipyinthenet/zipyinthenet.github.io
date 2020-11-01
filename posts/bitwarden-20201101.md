@@ -31,7 +31,7 @@ En mi caso github , apartado linux & mac , ya que voy a instalar en centOS7
 
 Descargamos el fichero
 
-![screenshot]({{ site.baseurl }}images/bitwarden/01.png)
+![foto1bitwarden](./../images/bitwarden/01.png)
 
 
 -----------------------------------------------------------------------------
