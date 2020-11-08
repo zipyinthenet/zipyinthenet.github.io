@@ -53,7 +53,7 @@ layout: default
 ### Lenguajes de Marcas y Sistemas de Gestión de Información
 #### Jekyll
 #### Control de Versiones
-* [ git-20201102 ](./posts/git-20201102.html)
+* [ git-Parte1-20201102 ](./posts/git-20201102.html)
 
 * * *
 
