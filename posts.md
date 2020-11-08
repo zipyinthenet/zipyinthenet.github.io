@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ git-20201102 ](./posts/git-20201102.html)
 * [ bitwarden-20201101 ](./posts/bitwarden-20201101.html)
 * [ ubuntu-bash-w10-20201027 ](./posts/ubuntu-bash-w10-20201027.html)
 * [ crear-ssl-certificates-auto-self-signed-20201027 ](./posts/crear-ssl-certificates-auto-self-signed-20201027.html)
