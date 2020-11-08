@@ -189,6 +189,7 @@ Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas 
 #### Control de Versiones
 * [GIT LAB](https://about.gitlab.com/)
 * [GIT HUB](https://github.com/)
+* [GIT-HUB-DOCS](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/changing-your-github-username)
 * [subversion - svn](https://subversion.apache.org/)
 * [empieza con git - raspberrypi](https://projects.raspberrypi.org/en/projects/getting-started-with-git)
 
