@@ -11,7 +11,7 @@ Linux es un sistema multitarea, es decir, permite ejecutar programas de forma co
 
 La ejecución en segundo plano, ejecuta el proceso dejando el shell libre para atender nuevas órdenes.
 
-El sell y el proceso que realiza la orden se ejecutan concurrentemente.
+El shell y el proceso que realiza la orden se ejecutan concurrentemente.
 
 ```$ orden &```
 
