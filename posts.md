@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ comandos-segundo-plano-20201116 ](./posts/comandos-segundo-plano-20201116.html)
 * [ edicion-de-textos-20201116 ](./posts/edicion-de-textos-20201116.html)
 * [ git-Parte1-20201102 ](./posts/git-20201102.html)
 * [ bitwarden-20201101 ](./posts/bitwarden-20201101.html)

@@ -14,6 +14,9 @@ layout: default
 #### TERMINALES/CONSOLAS/TIPOS DE SHELL'S
 * [ ubuntu-bash-w10-20201027 ](./posts/ubuntu-bash-w10-20201027.html)
 
+#### COMANDOS SHELL'S
+* [ comandos-segundo-plano-20201116 ](./posts/comandos-segundo-plano-20201116.html)
+
 #### DOCKER
 * [ instalación-docker-en-centOS7-20201025 ](./posts/instalación-docker-en-centOS7-20201025.html)
 
