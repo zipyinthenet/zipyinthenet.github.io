@@ -8,6 +8,9 @@ layout: default
 
 ### Administración de Sistemas Operativos (sistemas de información - todo tipo)
 
+#### EDITOR DE TEXTOS
+* [ edicion-de-textos-20201116 ](./posts/edicion-de-textos-20201116.html)
+
 #### TERMINALES/CONSOLAS/TIPOS DE SHELL'S
 * [ ubuntu-bash-w10-20201027 ](./posts/ubuntu-bash-w10-20201027.html)
 
