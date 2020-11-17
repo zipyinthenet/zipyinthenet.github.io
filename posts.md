@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ ip-command-cheat-sheet-20201117 ](./posts/ip-command-cheat-sheet-20201117.html)
 * [ comandos-segundo-plano-20201116 ](./posts/comandos-segundo-plano-20201116.html)
 * [ edicion-de-textos-20201116 ](./posts/edicion-de-textos-20201116.html)
 * [ git-Parte1-20201102 ](./posts/git-20201102.html)
