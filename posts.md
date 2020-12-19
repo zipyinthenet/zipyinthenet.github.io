@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ git-Parte4-20201102 ](./posts/git4-20201219.html)
 * [ git-Parte3-20201102 ](./posts/git3-20201219.html)
 * [ ip-command-cheat-sheet-20201117 ](./posts/ip-command-cheat-sheet-20201117.html)
 * [ comandos-segundo-plano-20201116 ](./posts/comandos-segundo-plano-20201116.html)
