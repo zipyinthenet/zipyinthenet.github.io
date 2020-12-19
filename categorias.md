@@ -64,6 +64,7 @@ layout: default
 * [ git-Parte2-20201219 ](./posts/git2-20201219.html)
 * [ git-Parte3-20201219 ](./posts/git3-20201219.html)
 * [ git-Parte4-20201219 ](./posts/git4-20201219.html)
+* [ git-Parte5-20201219 ](./posts/git5-20201219.html)
 * [ git-Parte6-20201219 ](./posts/git6-20201219.html)
 
 * * *
