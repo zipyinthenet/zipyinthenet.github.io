@@ -7,10 +7,10 @@ layout: default
 
 * * *
 
-* [ git-Parte6-20201102 ](./posts/git6-20201219.html)
-* [ git-Parte2-20201102 ](./posts/git2-20201219.html)
-* [ git-Parte4-20201102 ](./posts/git4-20201219.html)
-* [ git-Parte3-20201102 ](./posts/git3-20201219.html)
+* [ git-Parte6-20201219 ](./posts/git6-20201219.html)
+* [ git-Parte2-20201219 ](./posts/git2-20201219.html)
+* [ git-Parte4-20201219 ](./posts/git4-20201219.html)
+* [ git-Parte3-20201219 ](./posts/git3-20201219.html)
 * [ ip-command-cheat-sheet-20201117 ](./posts/ip-command-cheat-sheet-20201117.html)
 * [ comandos-segundo-plano-20201116 ](./posts/comandos-segundo-plano-20201116.html)
 * [ edicion-de-textos-20201116 ](./posts/edicion-de-textos-20201116.html)
