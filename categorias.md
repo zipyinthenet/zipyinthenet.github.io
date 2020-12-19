@@ -61,6 +61,7 @@ layout: default
 #### Jekyll
 #### Control de Versiones
 * [ git-Parte1-20201102 ](./posts/git-20201102.html)
+* [ git-Parte3-20201102 ](./posts/git3-20201219.html)
 
 * * *
 
