@@ -51,7 +51,7 @@ En el link referencial se explica todo , desde como instalar , hasta como usar a
 De igual forma dejo un minitutorial:
 
 OJO!!! , NO podemos usar esta utilidad si no tenemos antes INSTALADO TMUX , cuidado con esto , no es descargar la utilidad y probar como funcoine , esta utilidad esta hecha para cuando TENGAMOS INSTALADO TMUX , añadir nuevas FUNCIONALIDADES !!
-```
+```bash
 $ cd
 $ git clone https://github.com/gpakosz/.tmux.git
 $ ln -s -f .tmux/.tmux.conf
