@@ -16,7 +16,7 @@ Actualmente los 2 multiplexadores que conozco y son los mas conocidos y los que 
 
 Esta solucion de añadir los multiplexadores a nuestro Ubuntu Bash es una buenisima solucion para no tener que estar lidiando con mas ventanas , de tal forma que con abrir 1 solo terminal de Ubuntu Bash en w10 , podamos ejecutar por ejemplo tmux o terminator y con el terminal que se despliega poder abrir muchas sesiones y ventanas en diferentes hosts o el mismo hosts donde querramos trabajar , y con atajos de teclado muy rapidamente poder acceder a nuevas ventanas , estando todo el rato y tiempo en la misma ventana.
 
-Es muy util.
+Es muy usado.
 
 ***
 Terminator
