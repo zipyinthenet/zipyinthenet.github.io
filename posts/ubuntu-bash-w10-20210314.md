@@ -3,7 +3,7 @@ layout: default
 ---
 -------[Inicio/Home](./../index.html)-------[Posts-Guias-Por-Fecha-Publicación](./../posts.html)-------[Posts-Guias-Por-Categorias](./../categorias.html)-------[Links](./../links.html)-------
 
-## ubuntu-bash-w10
+## Multiplexador tmux/terminator-ubuntu-bash-w10-WSL
 
 Buenas !
 
