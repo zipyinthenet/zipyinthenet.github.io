@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ rsync-command-20210314 ](./posts/rsync-command-20210314.html)
 * [ tunel-ssh-proxypass-ssh-20210314 ](./posts/tunel-ssh-proxypass-ssh-20210314.html)
 * [ herramienta-neofetch-datos-basicos-instalacion-ubuntu-20210314 ](./posts/datos-basicos-instalacion-ubuntu-20210314.html)
 * [ atajos-teclado-w10-20210314 ](./posts/atajos-teclado-w10-20210314.html)
