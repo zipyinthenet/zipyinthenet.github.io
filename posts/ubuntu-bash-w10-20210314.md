@@ -122,6 +122,8 @@ CTRL +B w
 	panel cosas abiertas
 ```
 
+[Link-Video-explicativo-uso-tmux-by-s4vitar](https://youtu.be/1dDahc214co)
+
 Salu2
 
 -----------------------------------------------------------------------------
