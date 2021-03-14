@@ -13,7 +13,7 @@ layout: default
 
 #### TERMINALES/CONSOLAS/TIPOS DE SHELL'S/ATAJOS TECLADO
 * [ ubuntu-bash-w10-20201027 ](./posts/ubuntu-bash-w10-20201027.html)
-* [ ubuntu-bash-w10-20210314 ](./posts/ubuntu-bash-w10-20210314.html)
+* [ multiplexador-tmux-terminator-ubuntu-bash-w10-20210314 ](./posts/multiplexador-tmux-terminator-ubuntu-bash-w10-20210314.html)
 * [ atajos-teclado-w10-20210314 ](./posts/atajos-teclado-w10-20210314.html)
 
 #### COMANDOS SHELL'S
