@@ -20,6 +20,7 @@ layout: default
 * [ comandos-segundo-plano-20201116 ](./posts/comandos-segundo-plano-20201116.html)
 * [ ip-command-cheat-sheet-20201117 ](./posts/ip-command-cheat-sheet-20201117.html)
 * [ herramienta-neofetch-datos-basicos-instalacion-ubuntu-20210314 ](./posts/datos-basicos-instalacion-ubuntu-20210314.html)
+* [ tunel-ssh-proxypass-ssh-20210314 ](./posts/tunel-ssh-proxypass-ssh-20210314.html)
 
 #### DOCKER
 * [ instalación-docker-en-centOS7-20201025 ](./posts/instalación-docker-en-centOS7-20201025.html)
