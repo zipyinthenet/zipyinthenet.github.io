@@ -11,9 +11,10 @@ layout: default
 #### EDITOR DE TEXTOS
 * [ edicion-de-textos-20201116 ](./posts/edicion-de-textos-20201116.html)
 
-#### TERMINALES/CONSOLAS/TIPOS DE SHELL'S
+#### TERMINALES/CONSOLAS/TIPOS DE SHELL'S/ATAJOS TECLADO
 * [ ubuntu-bash-w10-20201027 ](./posts/ubuntu-bash-w10-20201027.html)
 * [ ubuntu-bash-w10-20210314 ](./posts/ubuntu-bash-w10-20210314.html)
+* [ atajos-teclado-w10-20210314 ](./posts/atajos-teclado-w10-20210314.html)
 
 #### COMANDOS SHELL'S
 * [ comandos-segundo-plano-20201116 ](./posts/comandos-segundo-plano-20201116.html)
