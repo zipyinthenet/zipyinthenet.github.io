@@ -153,7 +153,7 @@ Por último, también puedes asignar una combinación de teclas para lanzar apli
 
 ejemplo
 
-[!x][https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,pg_1,q_60,w_1165/1475273550626527813.jpg]
+[x][https://i.kinja-img.com/gawker-media/image/upload/c_fit,f_auto,g_center,pg_1,q_60,w_1165/1475273550626527813.jpg]
 
 
 Espero que sirva de ayuda , salu2
