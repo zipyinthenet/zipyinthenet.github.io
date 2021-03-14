@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ cut-command-20210314 ](./posts/cut-command-20210314.html)
 * [ rsync-command-20210314 ](./posts/rsync-command-20210314.html)
 * [ tunel-ssh-proxypass-ssh-20210314 ](./posts/tunel-ssh-proxypass-ssh-20210314.html)
 * [ herramienta-neofetch-datos-basicos-instalacion-ubuntu-20210314 ](./posts/datos-basicos-instalacion-ubuntu-20210314.html)
