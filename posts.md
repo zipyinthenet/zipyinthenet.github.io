@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ ubuntu-bash-w10-20210314 ](./posts/ubuntu-bash-w10-20210314.html)
 * [ git-Parte5-20201219 ](./posts/git5-20201219.html)
 * [ git-Parte6-20201219 ](./posts/git6-20201219.html)
 * [ git-Parte2-20201219 ](./posts/git2-20201219.html)
