@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ nagios-core-3-5-install-20210314 ](./posts/nagios-core-3-5-install-20210314.html)
 * [ su-command-20210314 ](./posts/su-command-20210314.html)
 * [ guardar-iptables-firewall-reglas-sistema-20210314 ](./posts/guardar-iptables-firewall-reglas-sistema-20210314.html)
 * [ cut-command-20210314 ](./posts/cut-command-20210314.html)

@@ -45,6 +45,9 @@ layout: default
 #### VPN
 * [ openvpn-server-on-centos7-behind-router-20201027 ](./posts/openvpn-server-on-centos7-behind-router-20201027.md)
 
+#### Monitorización / Disponibilidad
+* [ nagios-core-3-5-install-20210314 ](./posts/nagios-core-3-5-install-20210314.html)
+
 #### Altertas/Notificaciones
 #### Cortafuegos o Firewall
 * [ guardar-iptables-firewall-reglas-sistema-20210314 ](./posts/guardar-iptables-firewall-reglas-sistema-20210314.html)
