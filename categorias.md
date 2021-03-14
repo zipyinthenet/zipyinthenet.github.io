@@ -23,6 +23,7 @@ layout: default
 * [ tunel-ssh-proxypass-ssh-20210314 ](./posts/tunel-ssh-proxypass-ssh-20210314.html)
 * [ rsync-command-20210314 ](./posts/rsync-command-20210314.html)
 * [ cut-command-20210314 ](./posts/cut-command-20210314.html)
+* [ su-command-20210314 ](./posts/su-command-20210314.html)
 
 #### DOCKER
 * [ instalación-docker-en-centOS7-20201025 ](./posts/instalación-docker-en-centOS7-20201025.html)

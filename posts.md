@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ su-command-20210314 ](./posts/su-command-20210314.html)
 * [ guardar-iptables-firewall-reglas-sistema-20210314 ](./posts/guardar-iptables-firewall-reglas-sistema-20210314.html)
 * [ cut-command-20210314 ](./posts/cut-command-20210314.html)
 * [ rsync-command-20210314 ](./posts/rsync-command-20210314.html)
