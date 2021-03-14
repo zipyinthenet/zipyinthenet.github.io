@@ -46,6 +46,7 @@ layout: default
 
 #### Altertas/Notificaciones
 #### Cortafuegos o Firewall
+* [ guardar-iptables-firewall-reglas-sistema-20210314 ](./posts/guardar-iptables-firewall-reglas-sistema-20210314.html)
 
 * * *
 
