@@ -18,6 +18,9 @@ Esta solucion de añadir los multiplexadores a nuestro Ubuntu Bash es una buenis
 
 Es muy util.
 
+***
+Terminator
+
 Os dejo un  [articulo](https://medium.com/@bhupathy/install-terminator-on-windows-with-wsl-2826591d2156) , el cual habla sobre como INSTALAR Terminator en ubuntu BASH WSL en nuestro desktop de windows10.
 
 Cabe destacar que terminador no funciona si no se instalan requisitos previos:
