@@ -7,7 +7,7 @@ layout: default
 
 * * *
 
-* [ datos-basicos-instalacion-ubuntu-20210314 ](./posts/datos-basicos-instalacion-ubuntu-20210314.html)
+* [ herramienta-neofetch-datos-basicos-instalacion-ubuntu-20210314 ](./posts/datos-basicos-instalacion-ubuntu-20210314.html)
 * [ atajos-teclado-w10-20210314 ](./posts/atajos-teclado-w10-20210314.html)
 * [ ubuntu-bash-w10-20210314 ](./posts/ubuntu-bash-w10-20210314.html)
 * [ git-Parte5-20201219 ](./posts/git5-20201219.html)
