@@ -94,7 +94,7 @@ CRTL +B  1
 CRTL +B  2
 	moverse sesion ventana siguiente
 
-CRTL +B M
+CRTL +B m
 	funcionalidad raton activar y desactivar
 
 CTRL +B CTRL+derecha
