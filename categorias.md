@@ -26,6 +26,9 @@ layout: default
 * [ su-command-20210314 ](./posts/su-command-20210314.html)
 * [ tar-command-over-ssh-20210315 ](./posts/tar-command-over-ssh-20210315.html)
 
+#### CONFIGURACION NETWORK SISTEMAS
+* [ configure-virtual-network-interface-linux-20210315 ](./posts/configure-virtual-network-interface-linux-20210315.html)
+
 #### DOCKER
 * [ instalación-docker-en-centOS7-20201025 ](./posts/instalación-docker-en-centOS7-20201025.html)
 
