@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ haproxy-configure-tls-20210315 ](./posts/haproxy-configure-tls-20210315.html)
 * [ configure-virtual-network-interface-linux-20210315 ](./posts/configure-virtual-network-interface-linux-20210315.html)
 * [ tar-command-over-ssh-20210315 ](./posts/tar-command-over-ssh-20210315.html)
 * [ nagios-core-3-5-install-20210314 ](./posts/nagios-core-3-5-install-20210314.html)
