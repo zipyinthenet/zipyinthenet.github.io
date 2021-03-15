@@ -60,4 +60,4 @@ URL: "https://zipyinthenet.github.io"
 
 -----------------------------------------------------------------------------
 
-ZipyintheNet¡ 2020!®
+ZipyintheNet¡

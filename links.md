@@ -328,4 +328,4 @@ Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas 
 
 -----------------------------------------------------------------------------
 
-ZipyintheNet¡ 2020!®
+ZipyintheNet¡
