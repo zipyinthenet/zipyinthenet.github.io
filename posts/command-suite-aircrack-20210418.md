@@ -51,6 +51,22 @@ Atacar aircrack diccionario
 aircrack-ng -w spanish.dic /home/user/wpa-01.cap
 ```
 
+* * *
+
+Cambiar mac
+
+
+
+```bash
+ifconfig wlan0 down
+
+macchanger -m xx:xx:xx:xx:xx:xx wlan0
+
+ifconfig wlan0 up
+
+iwconfig wlan0
+```
+
 Salu2
 
 -----------------------------------------------------------------------------
