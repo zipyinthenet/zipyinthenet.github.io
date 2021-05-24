@@ -23,7 +23,7 @@ hostnamectl set-hostname mi.nuevo-hostname.servidor
 hostnamectl
 ```
 
-# PASO 4: editar el fichero /etc/hosts
+# PASO 4: editar el fichero /etc/hosts (opcionalmente)
 
 ```bash
 sudo vim /etc/hosts
