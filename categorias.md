@@ -25,6 +25,7 @@ layout: default
 * [ cut-command-20210314 ](./posts/cut-command-20210314.html)
 * [ su-command-20210314 ](./posts/su-command-20210314.html)
 * [ tar-command-over-ssh-20210315 ](./posts/tar-command-over-ssh-20210315.html)
+* [ hostname-command-20210524 ](./posts/hostname-command-20210524.html)
 
 #### CONFIGURACION NETWORK SISTEMAS
 * [ configure-virtual-network-interface-linux-20210315 ](./posts/configure-virtual-network-interface-linux-20210315.html)

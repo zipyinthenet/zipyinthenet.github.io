@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ hostname-command-20210524 ](./posts/hostname-command-20210524.html)
 * [ command-suite-aircrack-20210418 ](./posts/command-suite-aircrack-20210418.html)
 * [ haproxy-configure-tls-20210315 ](./posts/haproxy-configure-tls-20210315.html)
 * [ configure-virtual-network-interface-linux-20210315 ](./posts/configure-virtual-network-interface-linux-20210315.html)
