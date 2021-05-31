@@ -27,6 +27,7 @@ layout: default
 * [ tar-command-over-ssh-20210315 ](./posts/tar-command-over-ssh-20210315.html)
 * [ hostname-command-20210524 ](./posts/hostname-command-20210524.html)
 * [ ls-command-20210531 ](./posts/ls-command-20210531.html)
+* [ commands-basics-20210601 ](./posts/commands-basics-20210601.html)
 
 #### CONFIGURACION NETWORK SISTEMAS
 * [ configure-virtual-network-interface-linux-20210315 ](./posts/configure-virtual-network-interface-linux-20210315.html)
