@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ ls-command-20210531 ](./posts/ls-command-20210531.html)
 * [ hostname-command-20210524 ](./posts/hostname-command-20210524.html)
 * [ command-suite-aircrack-20210418 ](./posts/command-suite-aircrack-20210418.html)
 * [ haproxy-configure-tls-20210315 ](./posts/haproxy-configure-tls-20210315.html)
