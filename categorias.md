@@ -118,6 +118,8 @@ layout: default
 * * *
 
 ### Aplicaciones Ofimaticas
+* [ herramienta-suite-libreoffice-20210619 ](./posts/herramienta-suite-libreoffice-20210619.html)
+
 #### Procesadores de Texto
 #### Hojas de Calculo
 #### Gestores de presentaciones
