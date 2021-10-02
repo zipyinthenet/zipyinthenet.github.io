@@ -44,6 +44,20 @@ Tambien explica como llegar a los ficheros de ubuntu bash desde el propio w10
 
 Ampliación
 
+* * *
+
+Windows Terminal
+
+[link](https://docs.microsoft.com/en-us/windows/terminal/get-started)
+
+* * *
+
+SSH in windows terminal
+
+[link](https://docs.microsoft.com/en-us/windows/terminal/tutorials/ssh)
+
+* * *
+
 Podemos abrir mediante un explorador windows , en el terminal el directorio de WSL2 , sobre el subsistema que estemos , por ejemplo /home/usuario.
 
 Ejecutamos haya donde estemos , y se abrira el directorio con el explorador Windows10
