@@ -33,12 +33,32 @@ Con el siguiente link podeis optar a cambiar en powershell o un simple cmd , vue
 
 * * *
 
-Y por ultimo , tengo un tip para en caso de querer acceder a los ficheros o archivos o directorios de tu sistema anfitrion que es w10 , desde ubuntu . 
+Y por ultimo , tengo un tip para en caso de querer acceder a los ficheros o archivos o directorios de tu sistema anfitrion que es w10 , desde ubuntu .
 Para ello el siguiente [link](https://www.howtogeek.com/261383/how-to-access-your-ubuntu-bash-files-in-windows-and-your-windows-system-drive-in-bash/) lo explica a la perfeccion
 
 ![x](https://www.howtogeek.com/wp-content/uploads/2018/03/img_5a99b6b96cc86.png)
 
 Tambien explica como llegar a los ficheros de ubuntu bash desde el propio w10
+
+* * *
+
+Ampliación
+
+Podemos abrir mediante un explorador windows , en el terminal el directorio de WSL2 , sobre el subsistema que estemos , por ejemplo /home/usuario.
+
+Ejecutamos haya donde estemos , y se abrira el directorio con el explorador Windows10
+
+```bash
+explorer.exe .
+```
+
+* * *
+
+Podemos abrir un directorio mediante vscode
+
+```bash
+code.exe fichero
+```
 
 Salu2
 
