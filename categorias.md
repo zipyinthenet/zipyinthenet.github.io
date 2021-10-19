@@ -40,6 +40,9 @@ layout: default
 #### NAGIOS
 * [ nagios-core-3-5-install-20210314 ](./posts/nagios-core-3-5-install-20210314.html)
 
+#### ORQUESTADOR / AUTOMATIZACION
+* [ ansible-primeros-pasos-20211019 ](./posts/ansible-primeros-pasos-20211019.html)
+
 * * *
 
 ### Seguridad y Alta Disponibilidad
