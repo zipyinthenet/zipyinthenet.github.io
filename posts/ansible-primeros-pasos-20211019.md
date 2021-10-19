@@ -66,7 +66,21 @@ HOSTS
 
 USUARIO=useransible
 
+-----------------------------------------------------------
 
+## PRIMERA PRUEBA
+
+```console
+echo "x.x.x.x nombrehost1" >> /etc/hosts
+```
+
+```console
+su - useransible
+mkdir -p /home/useransible/ansible
+touch /home/useransible/ansible/inventory
+echo "[servidores-X]" >> /home/useransible/ansible/inventory
+echo "x.x.x.x" >> /home/useransible/ansible/inventory
+```
 
 -----------------------------------------------------------------------------
 
