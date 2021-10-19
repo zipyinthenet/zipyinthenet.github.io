@@ -82,6 +82,13 @@ echo "[servidores-X]" >> /home/useransible/ansible/inventory
 echo "x.x.x.x" >> /home/useransible/ansible/inventory
 ```
 
+```console
+su - useransible
+clave_ssh_useransible
+<mete el password>
+ansible -vvv --become-user useransible -u useransible -i inventory servidores-X -m ping
+```
+
 -----------------------------------------------------------------------------
 
 ZipyintheNet¡
