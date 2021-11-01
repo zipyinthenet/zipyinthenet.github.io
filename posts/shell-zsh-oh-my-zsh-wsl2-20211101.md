@@ -10,6 +10,13 @@ Diferencias entre Bash vs Zsh vs Fish
 
 ![video1]({https://youtu.be/Mx968FklOYc})
 
+<!-- blank line -->
+<figure class="video_container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Mx968FklOYc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>
+<!-- blank line -->
+
+
 QUE ES terminal , una shell , una consola , un cli
 
 ![video2](https://youtu.be/mKSOwHBkYHY)
