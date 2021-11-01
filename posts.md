@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ shell-zsh-oh-my-zsh-wsl2-20211101 ](./posts/shell-zsh-oh-my-zsh-wsl2-20211101.html)
 * [ ansible-primeros-pasos-20211019 ](./posts/ansible-primeros-pasos-20211019.html)
 * [ herramienta-suite-libreoffice-20210619 ](./posts/herramienta-suite-libreoffice-20210619.html)
 * [ commands-basics-20210601 ](./posts/commands-basics-20210601.html)

@@ -15,6 +15,7 @@ layout: default
 * [ ubuntu-bash-w10-20201027 ](./posts/ubuntu-bash-w10-20201027.html)
 * [ multiplexador-tmux-terminator-ubuntu-bash-w10-20210314 ](./posts/multiplexador-tmux-terminator-ubuntu-bash-w10-20210314.html)
 * [ atajos-teclado-w10-20210314 ](./posts/atajos-teclado-w10-20210314.html)
+* [ shell-zsh-oh-my-zsh-wsl2-20211101 ](./posts/shell-zsh-oh-my-zsh-wsl2-20211101.html)
 
 #### COMANDOS SHELL'S
 * [ comandos-segundo-plano-20201116 ](./posts/comandos-segundo-plano-20201116.html)
