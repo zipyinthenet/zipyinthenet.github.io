@@ -149,7 +149,7 @@ añadir al terminal de ubuntu
 
 ##  10. install fonts in ubuntu
 
-![link-install-powerline-fonts](https://github.com/powerline/fonts)
+[link-install-powerline-fonts](https://github.com/powerline/fonts)
 
 ```console
  sudo apt-get install fonts-powerline
