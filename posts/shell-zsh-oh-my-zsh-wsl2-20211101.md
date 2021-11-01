@@ -170,13 +170,21 @@ rm -rf fonts
 
 ## links:
 [como-instalar-oh-my-zsh-en-ubuntu](https://geekytheory.com/como-instalar-oh-my-zsh-en-ubuntu)
+
 [ohmyzsh/wiki/themes](https://github.com/ohmyzsh/ohmyzsh/wiki/themes)
+
 [agnoster-zsh-theme](https://github.com/agnoster/agnoster-zsh-theme)
+
 [powerline/fonts](https://github.com/powerline/fonts)
+
 [ohmyzsh/wiki/Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
+
 [ohmyzsh/plugins/sublime](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sublime)
+
 [configurando-wsl2-windows-terminal-y-oh-my-zsh](https://platzi.com/tutoriales/1748-terminal/8505-configurando-wsl2-windows-terminal-y-oh-my-zsh/)
+
 [como-ejecutar-scripts-powershell-para-windows](https://www.pcresumen.com/menu-tutoriales/26-como-ejecutar-scripts-powershell-para-windows)
+
 [JGAITPro-how-to-enable-scripts-powershell](https://www.youtube.com/watch?v=hMtmLTsxdAM&ab_channel=JGAITPro)
 
 -----------------------------------------------------------------------------
