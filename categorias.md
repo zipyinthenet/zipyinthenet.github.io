@@ -10,6 +10,7 @@ layout: default
 
 #### EDITOR DE TEXTOS
 * [ edicion-de-textos-20201116 ](./posts/edicion-de-textos-20201116.html)
+* [ atom-text-editor-20211101 ](./posts/atom-text-editor-20211101.html)
 
 #### TERMINALES/CONSOLAS/TIPOS DE SHELL'S/ATAJOS TECLADO
 * [ ubuntu-bash-w10-20201027 ](./posts/ubuntu-bash-w10-20201027.html)

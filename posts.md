@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ atom-text-editor-20211101 ](./posts/atom-text-editor-20211101.html)
 * [ shell-zsh-oh-my-zsh-wsl2-20211101 ](./posts/shell-zsh-oh-my-zsh-wsl2-20211101.html)
 * [ ansible-primeros-pasos-20211019 ](./posts/ansible-primeros-pasos-20211019.html)
 * [ herramienta-suite-libreoffice-20210619 ](./posts/herramienta-suite-libreoffice-20210619.html)
