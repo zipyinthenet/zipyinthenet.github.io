@@ -8,7 +8,7 @@ layout: default
 
 Diferencias entre Bash vs Zsh vs Fish
 
-![video1](https://youtu.be/Mx968FklOYc)
+![video1]({https://youtu.be/Mx968FklOYc})
 
 QUE ES terminal , una shell , una consola , un cli
 
