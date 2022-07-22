@@ -147,10 +147,6 @@ Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas 
 ------------------------------------------------------------------------------------------------------
 
 ### Administración de Sistemas Gestores de Bases De Datos
-#### Elasticsearch
-
-* [ install-elasticsearch-docker-w10-20220722 ](./posts/elasticsearch-docker-w10-20220722.html)
-
 #### Links
 * [Maria-db](https://mariadb.com/)
 * [MySQL](https://www.mysql.com/)
