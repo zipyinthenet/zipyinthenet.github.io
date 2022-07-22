@@ -51,6 +51,7 @@ Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas 
 
 ### Seguridad y Alta Disponibilidad
 #### Links
+
 * [Nagios Core ver.4 Doc ](https://assets.nagios.com/downloads/nagioscore/docs/nagioscore/4/en/monitoring-publicservices.html)
 * [PWNAGOTCHI](https://pwnagotchi.ai/)
 * [Hiding/ESCONDER/OCULTAR Data in Audio Files](https://www.hackers-arise.com/mr-robot-hacks-hiding-data-in-audio)
@@ -146,8 +147,8 @@ Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas 
 ------------------------------------------------------------------------------------------------------
 
 ### Administración de Sistemas Gestores de Bases De Datos
-
 #### Elasticsearch
+
 * [ install-elasticsearch-docker-w10-20220722 ](./posts/elasticsearch-docker-w10-20220722.html)
 
 #### Links
