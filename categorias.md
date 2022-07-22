@@ -75,6 +75,8 @@ layout: default
 * * *
 
 ### Administración de Sistemas Gestores de Bases De Datos
+#### Elasticsearch
+* [ install-elasticsearch-docker-w10-20220722 ](./posts/elasticsearch-docker-w10.html)
 
 * * *
 

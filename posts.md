@@ -7,7 +7,7 @@ layout: default
 
 * * *
 
-* [ install-elasticsearch-docker-w10-20220722 ](./posts/elasticsearch-docker-w10-20220722.html)
+* [ install-elasticsearch-docker-w10-20220722 ](./posts/elasticsearch-docker-w10.html)
 * [ atom-text-editor-20211101 ](./posts/atom-text-editor-20211101.html)
 * [ shell-zsh-oh-my-zsh-wsl2-20211101 ](./posts/shell-zsh-oh-my-zsh-wsl2-20211101.html)
 * [ ansible-primeros-pasos-20211019 ](./posts/ansible-primeros-pasos-20211019.html)
