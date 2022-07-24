@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ elasticsearch-cerebro-cluster-with-https ](./posts/elasticsearch-cerebro-cluster-with-https.html)
 * [ elasticsearch-envio-de-consultas-cluster-mediante-cURL ](./posts/elasticsearch-envio-de-consultas-cluster-mediante-cURL.html)
 * [ elasticsearch-inspeccionar-cluster ](./posts/elasticsearch-inspeccionar-cluster.html)
 * [ install-elasticsearch-docker-w10-20220722 ](./posts/elasticsearch-docker-w10.html)
