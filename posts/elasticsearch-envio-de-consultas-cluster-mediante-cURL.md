@@ -19,6 +19,8 @@ curl -k -X GET -u elastic:password https://localhost:9200/_cat/nodes?v
 curl -k -X GET -u elastic:password https://localhost:9200/_cat/indices?v
 
 curl -k -X GET -u elastic:password https://localhost:9200/_cat/indices?v\&expand_wildcards=all
+
+curl -k -X GET -u elastic:password -H "Content-Type:application/json" https://localhost:9200/products/_search -d '{ "query": { "match_all": {} } }'
 ```
 
 [Link-rest-API](https://www.elastic.co/guide/en/elasticsearch/reference/current/rest-apis.html)
