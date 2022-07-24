@@ -76,6 +76,7 @@ layout: default
 
 ### Administración de Sistemas Gestores de Bases De Datos
 #### Elasticsearch
+* [ elasticsearch-inspeccionar-cluster ](./posts/elasticsearch-inspeccionar-cluster.html)
 * [ install-elasticsearch-docker-w10-20220722 ](./posts/elasticsearch-docker-w10.html)
 
 * * *
