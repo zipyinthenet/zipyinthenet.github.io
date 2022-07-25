@@ -76,6 +76,7 @@ layout: default
 
 ### Administración de Sistemas Gestores de Bases De Datos
 #### Elasticsearch
+* [ elasticsearch-sharding-and-replication ](./posts/elasticsearch-sharding-and-replication.html)
 * [ elasticsearch-cerebro-cluster-with-https ](./posts/elasticsearch-cerebro-cluster-with-https.html)
 * [ elasticsearch-envio-de-consultas-cluster-mediante-cURL ](./posts/elasticsearch-envio-de-consultas-cluster-mediante-cURL.html)
 * [ elasticsearch-inspeccionar-cluster ](./posts/elasticsearch-inspeccionar-cluster.html)
