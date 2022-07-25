@@ -22,9 +22,9 @@ Shards se pueden replicar , pero esto solo se puede realizar como minimo con mas
 De forma que en un nodo tengamos 1 primary Shard , y en el secundario 1 replica shard.
 
 NODO A
-    - primary shard
+*  primary shard
 NODO B
-    - replica shard
+*  replica shard
 
 La replica de Shards en elasticsearch , tambien sirve para aumentar el rendimiento del cluster en cuanto a busquedas. Ya que cada replica de shard , es una copia identica del shard primary , por tanto podriamos tener varios indices con varias consultas ejecutandose en cada uno de ellos.
 Tambien hay que contar con varios factores mas , el hardware del nodo , y los recursos que tenga el nodo.
