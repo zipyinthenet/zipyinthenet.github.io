@@ -48,17 +48,17 @@ GET _cat/shards?v
 ```
 
 La columna 'prirep':
-    - r = replica shard
-    - p = primary shard
+* r = replica shard
+* p = primary shard
 
 La columna 'node':
-    - Podras ver en que nodo esta el shard.
+* Podras ver en que nodo esta el shard.
 
 La columna 'state':
-    - STARTED = el shard ha comenzado
-    - UNNASIGNED = el shard no esta asignado a ningun nodo
-    - RELOCATING = el shard es relocalizado
-    - INITIALIZING = el shard se esta recuperando de un compañero/nodo
+* STARTED = el shard ha comenzado
+* UNNASIGNED = el shard no esta asignado a ningun nodo
+* RELOCATING = el shard es relocalizado
+* INITIALIZING = el shard se esta recuperando de un compañero/nodo
 
 [link-state-shards](https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-shards.html)
 
