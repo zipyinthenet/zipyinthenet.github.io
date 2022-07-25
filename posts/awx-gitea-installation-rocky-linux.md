@@ -5,7 +5,9 @@ layout: default
 
 ## Instalacion AWX + Gitea en RockyLinux
 
-_yay_
+[link-getting-started](https://github.com/ansible/awx/blob/17.1.0/INSTALL.md#getting-started)
+
+[link-docker-compose](https://github.com/ansible/awx/blob/17.1.0/INSTALL.md#docker-compose)
 
 
 -----------------------------------------------------------------------------
