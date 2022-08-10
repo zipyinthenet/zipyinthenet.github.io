@@ -76,7 +76,7 @@ Instalacion realizada en Rocky Linux 8
 
    # si no te acuerdas del password de admin
    26  cd /tmp/awx-17.0.1/installer/
-   28  grep inventory admin
+   27  grep inventory admin
 
 ```
 
