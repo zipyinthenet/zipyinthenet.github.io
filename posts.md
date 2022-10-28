@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ ansible-for-begginers ](./posts/ansible-for-begginers.html)
 * [ awx-installation-rocky-linux ](./posts/awx-gitea-installation-rocky-linux.html)
 * [ elasticsearch-sharding-and-replication ](./posts/elasticsearch-sharding-and-replication.html)
 * [ elasticsearch-cerebro-cluster-with-https ](./posts/elasticsearch-cerebro-cluster-with-https.html)
