@@ -198,7 +198,8 @@ Los playbooks se escriben en YAML , definicion playbook:
 - ejemplo:
 
 ```bash
-- name: Play 1
+-
+  name: Play 1
   hosts: localhost
   tasks:
     - name: Execute command ‘date’
@@ -221,7 +222,8 @@ Los playbooks se escriben en YAML , definicion playbook:
 - ejemplo2:
 
 ```bash
-- name: Play 1
+-
+  name: Play 1
   hosts: localhost
   tasks:
     - name: Execute command ‘date’
@@ -230,7 +232,8 @@ Los playbooks se escriben en YAML , definicion playbook:
     - name: Execute script on server
     script: test_script.sh
 
-- name: Play 2
+-
+  name: Play 2
   hosts: localhost
   tasks:
     - name: Install httpd service
