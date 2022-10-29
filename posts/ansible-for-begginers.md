@@ -299,7 +299,104 @@ ansible-playbook playbook-copyfile.yaml -i inventory.txt
 
 ## Modules
 
+Los módulos son acciones a realizarse y pueden clasificarse en:
 
+- System , se encuentran módulos para gestionar cosas del sistema , como usuarios , grupos , instalar paquetes..
+
+- Commands , se encuentran módulos para ejecutar comandos simples , o scripts.
+
+- Files, se encuentran módulos por ejemplo para buscar lineas en ficheros , copiar ..etc.
+
+- Database , se encuentran módulos para interactuar con bases de datos como mongodb , mysql..etc.
+
+- Cloud, se encuentran módulos para muchos clouds providers , para realizar tareas diversas.
+
+- Windows, se encuentran módulos para gestionar windows hosts , por ejemplo copiar , command para ejecutar comandos..etc.
+
+- Otros...
+
+### Ejemplo command Module(command modules)
+
+```bash
+-
+  name: Play 1
+  hosts: localhost
+  tasks:
+   - name: Execute command ‘date’
+     command: date
+
+   - name: Display resolv.conf contents
+     command: cat /etc/ resolv.conf
+
+   - name: Display resolv.conf contents
+     command: cat resolv.confchdir =/etc
+
+   - name: Display resolv.conf contents
+     command: mkdir/folder creates=/folder
+
+   - name: Copy file from source to destination
+     copy: src=/source_file dest=/destination
+```
+
+### Ejemplo script Module(command modules)
+
+```bash
+-
+  name: Play 1
+  hosts: localhost
+  tasks:
+   - name: Run a script on remote server
+     script: /some/local/script.sh -arg1 -arg2
+```
+
+### Ejemplo service Module(system modules)
+
+```bash
+-
+  name: Start Services in order
+  hosts: localhost
+  tasks:
+   - name: Start the database service
+     service: name= postgresql state=started
+
+   - name: Start the httpd service
+     service: name=httpd state=started
+
+   - name: Start the nginx service
+     service:
+       name: nginx
+       state: started
+```
+
+```bash
+-
+  name: Start Services in order
+  hosts: localhost
+  tasks:
+   - name: Start the database service
+     service:
+      name: postgresql
+      state: started
+```
+
+### Ejemplo lineinfile Module(files modules)
+
+- script.sh:
+
+```bash
+#Sample script
+echo “nameserver 10.1.250.10” >> /etc/resolv.conf
+```
+
+```bash
+-
+  name: Add DNS server to resolv.conf
+  hosts: localhost
+  tasks:
+   - lineinfile:
+        path: /etc/resolv.conf
+        line: 'nameserver 10.1.250.10'
+```
 
 -----------------------------------------------------------------------------
 
