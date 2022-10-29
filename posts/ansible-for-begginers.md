@@ -470,6 +470,150 @@ inter_ip_range: 192.0.2.0
 
 ## Conditionals
 
+Ejemplo uso condiciones en playbook.
+Tenemos 2 playbooks , los cuales usan 2 modulos distintos para instalar paquetes, en este caso nginx , en una maquina debian y otra redhat.
+
+```bash
+---
+- name: Install NGINX
+  hosts: debian_hosts
+  tasks:
+  - name: Install NGINX on Debian
+    apt:
+      name: nginx
+      state: present
+```
+
+```bash
+---
+- name: Install NGINX
+  hosts: redhat_hosts
+  tasks:
+  - name: Install NGINX on Redhat
+    yum:
+      name: nginx
+      state: present
+```
+
+### Condicional when
+
+Podemos usar el condicional ‘when’ para que solo se ejecute en maquinas cuando sea cierto , cuando el sistema operativo sea debian o redhat en todas las maquinas.
+Ansible_os_family , es una variable interna de ansible que obtiene la familia de os.
+
+```bash
+---
+- name: Install NGINX
+  hosts:
+  tasks:
+  - name: Install NGINX on Debian
+    apt:
+      name: nginx
+      state: present
+    when: ansible_os_family == 'Debian'
+
+  - name: Install NGINX on Redhat
+    yum:
+      name: nginx
+      state: present
+    when: ansible_os_family == 'RedHat'
+```
+
+### Operador or
+
+Podemos usar tambien , la condición ‘or’.
+En este caso se instalar el paquete cuando sea redhat o suse:
+
+```bash
+---
+- name: Install NGINX
+  hosts:
+  tasks:
+  - name: Install NGINX on Debian
+    apt:
+      name: nginx
+      state: present
+    when: ansible_os_family == 'Debian'
+
+  - name: Install NGINX on Redhat
+    yum:
+      name: nginx
+      state: present
+    when: ansible_os_family == 'RedHat' or
+          ansible_os_family == 'SUSE'
+```
+
+### Operador and
+
+Otro operador es ‘and’ , podemos usar ‘and’ , cuando queremos que se cumplan 2 condiciones para ejecutar lo deseado. Por ejemplo , solo cuando sea debian y tambien sea 16.04 , solo se ejecutara en ese caso:
+
+```bash
+---
+- name: Install NGINX
+  hosts:
+  tasks:
+  - name: Install NGINX on Debian
+    apt:
+      name: nginx
+      state: present
+    when: ansible_os_family == 'Debian'  and
+          ansible_distribution_version == '16.04'
+
+  - name: Install NGINX on Redhat
+    yum:
+      name: nginx
+      state: present
+    when: ansible_os_family == 'RedHat' or
+          ansible_os_family == 'SUSE'
+```
+
+### Condicionales con loops
+
+Es posible usar condicionales con loops , por ejemplo , solo se instalaran aquellos que esten en ‘true’:
+
+Tambien podemos añadir un condicional when a la tarea tasks , para que solo se ejecute cuando sea true, en loop.
+
+```bash
+---
+- name: Install Softwares
+  hosts:
+  vars:
+     packages:
+        - name: nginx
+          required: True
+        - name: mysql
+          required: True
+        - name: apache
+          required: False
+  tasks:
+  - name: Install "{{ item.name }}" on Debian
+    apt:
+      name: "{{ item.name }}"
+      state: present
+
+    when: item.required == True
+
+    loop: "{{ packages }}"
+```
+
+### Condicionales y registros
+
+Revisa el estado del servicio , guarda en ‘register’ una variable llamada ‘result’ con el estado de la tarea(salida del comando se guarda en result) , y enviá email si esta caído(si hace un find de down y NO obtiene -1 , es por que esta caido y down si que lo ha encontrado , de otra forma , si encuentra down , entonces notifica , en caso de no encontrar down , entonces el resultado es -1).
+
+```bash
+- name: Check status of a service and email if its down
+  hosts: localhost
+  tasks:
+    - command: service httpd status
+      register: result
+
+    - mail:
+       to: admin@company.com
+       subject: Service Alert
+       body: Httpd Service is down
+
+       when: result.stdout.find('down') != -1
+```
+
 -----------------------------------------------------------------------------
 
 ## Loops
