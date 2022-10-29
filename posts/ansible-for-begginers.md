@@ -388,6 +388,8 @@ Los módulos son acciones a realizarse y pueden clasificarse en:
 echo “nameserver 10.1.250.10” >> /etc/resolv.conf
 ```
 
+- playbook:
+
 ```bash
 -
   name: Add DNS server to resolv.conf
@@ -401,6 +403,68 @@ echo “nameserver 10.1.250.10” >> /etc/resolv.conf
 -----------------------------------------------------------------------------
 
 ## Variables
+
+Las variables sirven para guardar datos y usarlos.
+Para usar variables , podemos declara variables en playbooks y usarlas en alguna tasks , las variables para usarlas , se declaran con ‘{{}}’ , ejemplo:
+
+```bash
+-
+  name: Add DNS server to resolv.conf
+  hosts: localhost
+  vars:
+    dns_server : 10.1.250.10
+  tasks:
+      - lineinfile:
+          path: /etc/resolv.conf
+          line: 'nameserver {{ dns_server }}'
+```
+
+También , podemos usar ficheros que solo contengan variables:
+
+```bash
+variable1: value1
+variable2: value2
+```
+
+Ejemplo ficheros variables:
+
+```bash
+-
+  name: Set Firewall Configurations
+  hosts: web
+  tasks:
+  - firewalld :
+      service: https
+      permanent: true
+      state: enabled
+
+  - firewalld :
+      port: '{{ http_port }}'/tcp
+      permanent: true
+      state: disabled
+
+  - firewalld :
+      port: '{{ snmp_port }}'/udp
+      permanent: true
+      state: disabled
+
+  - firewalld :
+      source: '{{ inter_ip_range }}'/24
+      Zone: internal
+      state: enabled
+```
+
+```bash
+#Sample Inventory File
+Web http_port= snmp_port= inter_ip_range=
+```
+
+```bash
+#Sample variable File - web.yml
+http_port: 8081
+snmp_port: 161-162
+inter_ip_range: 192.0.2.0
+```
 
 -----------------------------------------------------------------------------
 
