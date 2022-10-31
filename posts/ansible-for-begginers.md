@@ -841,6 +841,39 @@ With_varnames
 
 ## Roles
 
+Roles en ansible.
+En automatización , un rol significa hacer todo lo que es necesario para cumplir las tareas de ese rol.
+Por ejemplo , cumplir un rol de base de datos , seria instalar y configurar toda una base de datos.
+Tareas muy comunes , se puede crear un playbook:
+
+bash```
+- name: Install and Configure MySQL
+  hosts: db-server
+  tasks:
+     - name: Install Pre-Requisites
+       yum: name=pre-req-packages state=present
+
+     - name: Install MySQL Packages
+       yum: name=mysql state=present
+
+     - name: Start MySQL Service
+       service: name=mysql state=started
+
+     - name: Configure Database
+       mysql_db: name=db1 state=present
+```
+
+El playbook que hemos creado , se puede usar para instalar tareas de ese mismo playbook.
+
+De forma que , un playbook , lo usamos como rol , en otro playbook para hacer esas tareas:
+
+bash```
+- name: Install and Configure MySQL
+  hosts: db-server1...db-servretr100
+  roles:
+      - mysql
+```
+
 -----------------------------------------------------------------------------
 
 ## Advanced topics
