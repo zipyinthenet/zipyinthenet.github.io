@@ -618,6 +618,225 @@ Revisa el estado del servicio , guarda en ‘register’ una variable llamada �
 
 ## Loops
 
+Los loops sirven para repetir tareas.
+Por ejemplo si tenemos que crear usuarios con el modulo user , podemos correr muchas veces el mismo modulo:
+
+```bash
+-
+  name: Create users
+  hosts: localhost
+  tasks:
+   - user: name= “{{ item }}” state=present
+   - user: name=george state=present
+   - user: name=ravi state=present
+   - user: name=mani state=present
+   - user: name=kiran state=present
+   - user: name=jazlan state=present
+   - user: name=emaan state=present
+   - user: name=mazin state=present
+   - user: name=izaan state=present
+   - user: name=mike state=present
+   - user: name=menaal state=present
+   - user: name=shoeb state=present
+   - user: name=rani state=present
+```
+
+También , podemos organizar de otra manera , repitiendo la tarea con un ‘loop’(la ejecución se podria visualizar tarea derecha):
+
+```bash
+-
+  name: Create users
+  hosts: localhost
+  tasks:
+   - user: name='{{ item }}' state=present
+     loop:
+       - joe
+       - george
+       - ravi
+       - mani
+       - kiran
+       - jazlan
+       - emaan
+       - mazin
+       - izaan
+       - mike
+       - menaal
+       - shoeb
+       - rani
+```
+
+```bash
+-
+  name: Create users
+  hosts: localhost
+  tasks:
+
+  - var: item=joe
+    user: name= “{{ item }}” state=present
+  - var: item=george
+    user: name= “{{ item }}” state=present
+  - var: item=ravi
+    user: name= “{{ item }}” state=present
+  - var: item=mani
+    user: name= “{{ item }}” state=present
+  - var: item=kiran
+    user: name= “{{ item }}” state=present
+  - var: item=jazlan
+    user: name= “{{ item }}” state=present
+  - var: item=emaan
+    user: name= “{{ item }}” state=present
+  - var: item=mazin
+    user: name= “{{ item }}” state=present
+  - var: item=izaan
+    user: name= “{{ item }}” state=present
+```
+
+En caso de querer pasar 2 valores , se podrían pasar de la siguiente forma(derecha forma visual):
+
+```bash
+-
+  name: Create users
+  hosts: localhost
+  tasks:
+   - user: name=‘{{ item.name }}’ state=present uid='{{item.uid}}'
+     loop:
+       - name: joe    - { name: joe, uid: 1010 }
+         uid: 1010
+       - name: george - { name: george, uid: 1011 }
+         uid: 1011
+       - name: ravi   - { name: ravi, uid: 1012 }
+         uid: 1012
+       - name: mani   - { name: mani, uid: 1013 }
+         uid: 1013
+       - name: kiran  - { name: kiran, uid: 1014 }
+         uid: 1014
+       - name: jazlan - { name: jazlan, uid: 1015 }
+         uid: 1015
+       - name: emaan  - { name: emaan, uid: 1016 }
+         uid: 1016
+       - name: mazin  - { name: mazin, uid: 1017 }
+         uid: 1017
+       - name: izaan  - { name: izaan, uid: 1018 }
+         uid: 1018
+       - name: mike   - { name: mike, uid: 1019 }
+         uid: 1019
+```
+
+Antes de existir ‘loops’ , se usaba ‘with_*’.
+Ejemplo:
+
+```bash
+-
+  name: Create users
+  hosts: localhost
+  tasks:
+   - user: name='{{ item }}' state=present
+     with_items:
+       - joe
+       - george
+       - ravi
+       - mani
+```
+
+```bash
+-
+  name: Create users
+  hosts: localhost
+  tasks:
+   - user: name='{{ item }}' state=present
+     loop:
+       - joe
+       - george
+       - ravi
+       - mani
+```
+
+Ejemplos:
+
+```bash
+-
+  name: Create users
+  hosts: localhost
+  tasks:
+   - user: name='{{ item }}' state=present
+     with_items:
+       - joe
+       - george
+       - ravi
+       - mani
+```
+
+```bash
+-
+  name: View Config FIles
+  hosts: localhost
+  tasks:
+   - debug: var=item
+     with_file:
+       - "/etc/hosts"
+       - "/etc/resolv.conf"
+       - "/etc/ntp.conf"
+```
+
+```bash
+-
+  name: Get from multiple URLs
+  hosts: localhost
+  tasks:
+   - debug: var=item
+     with_url:
+       - "https://site1.com/get-servers"
+       - "https://site2.com/get-servers"
+       - "https://site3.com/get-servers""
+```
+
+```bash
+-
+  name: Check multiple mongodbs
+  hosts: localhost
+  tasks:
+   - debug: msg="DB={{ item.database }} PID={{ item.pid }}"
+     with_mongodb:
+       - database: dev
+         connection_string: "mongodb://dev.mongo/"
+       - database: prod
+         connection_string: "mongodb://prod.mongo/"
+```
+
+Otros plugins para usar con ‘with_*’:
+
+```bash
+with_items
+with_file
+with_url
+with_mongodb
+
+with_dict
+with_etcd
+with_env
+with_filetree
+With_ini
+With_inventory_hostnames
+With_k8s
+With_manifold
+With_nested
+With_nios
+With_openshift
+With_password
+With_pipe
+With_rabbitmq
+
+With_redis
+With_sequence
+With_skydive
+With_subelements
+With_template
+With_together
+With_varnames
+```
+
+
+
 -----------------------------------------------------------------------------
 
 ## Roles
