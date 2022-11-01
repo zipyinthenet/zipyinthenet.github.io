@@ -629,7 +629,7 @@ Por ejemplo si tenemos que crear usuarios con el modulo user , podemos correr mu
 - name: Create users
   hosts: localhost
   tasks:
-   - user: name= “{{ item }}” state=present
+   - user: name= " { { item } } " state=present
    - user: name=george state=present
    - user: name=ravi state=present
    - user: name=mani state=present
@@ -651,7 +651,7 @@ También , podemos organizar de otra manera , repitiendo la tarea con un ‘loop
 - name: Create users
   hosts: localhost
   tasks:
-   - user: name='{{ item }}' state=present
+   - user: name= " { { item } } " state=present
      loop:
        - joe
        - george
