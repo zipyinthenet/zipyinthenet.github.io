@@ -200,8 +200,8 @@ Los playbooks se escriben en YAML , definicion playbook:
 - ejemplo:
 
 ```bash
--
-  name: Play 1
+---
+- name: Play 1
   hosts: localhost
   tasks:
     - name: Execute command ‘date’
@@ -224,8 +224,8 @@ Los playbooks se escriben en YAML , definicion playbook:
 - ejemplo2:
 
 ```bash
--
-  name: Play 1
+---
+- name: Play 1
   hosts: localhost
   tasks:
     - name: Execute command ‘date’
@@ -234,8 +234,7 @@ Los playbooks se escriben en YAML , definicion playbook:
     - name: Execute script on server
     script: test_script.sh
 
--
-  name: Play 2
+- name: Play 2
   hosts: localhost
   tasks:
     - name: Install httpd service
@@ -281,8 +280,8 @@ touch /tmp/test-file.txt
 - creamos el playbook:
 
 ```bash
--
-  name: Copy files to target servers
+---
+- name: Copy files to target servers
   hosts: all
   tasks:
     - name: Copy file
@@ -290,6 +289,8 @@ touch /tmp/test-file.txt
         src: /tmp/test-file.txt
         dest: /tmp/test-file.txt
 ```
+
+- Ejecución del playbook con inventario:
 
 ```bash
 ansible-playbook playbook-copyfile.yaml -i inventory.txt
@@ -318,8 +319,8 @@ Los módulos son acciones a realizarse y pueden clasificarse en:
 ### Ejemplo command Module(command modules)
 
 ```bash
--
-  name: Play 1
+---
+- name: Play 1
   hosts: localhost
   tasks:
    - name: Execute command ‘date’
@@ -341,8 +342,8 @@ Los módulos son acciones a realizarse y pueden clasificarse en:
 ### Ejemplo script Module(command modules)
 
 ```bash
--
-  name: Play 1
+---
+- name: Play 1
   hosts: localhost
   tasks:
    - name: Run a script on remote server
@@ -352,8 +353,8 @@ Los módulos son acciones a realizarse y pueden clasificarse en:
 ### Ejemplo service Module(system modules)
 
 ```bash
--
-  name: Start Services in order
+---
+- name: Start Services in order
   hosts: localhost
   tasks:
    - name: Start the database service
@@ -369,8 +370,8 @@ Los módulos son acciones a realizarse y pueden clasificarse en:
 ```
 
 ```bash
--
-  name: Start Services in order
+---
+- name: Start Services in order
   hosts: localhost
   tasks:
    - name: Start the database service
@@ -391,8 +392,8 @@ echo “nameserver 10.1.250.10” >> /etc/resolv.conf
 - playbook:
 
 ```bash
--
-  name: Add DNS server to resolv.conf
+---
+- name: Add DNS server to resolv.conf
   hosts: localhost
   tasks:
    - lineinfile:
@@ -408,8 +409,8 @@ Las variables sirven para guardar datos y usarlos.
 Para usar variables , podemos declara variables en playbooks y usarlas en alguna tasks , las variables para usarlas , se declaran con ‘{{}}’ , ejemplo:
 
 ```bash
--
-  name: Add DNS server to resolv.conf
+---
+- name: Add DNS server to resolv.conf
   hosts: localhost
   vars:
     dns_server : 10.1.250.10
@@ -422,6 +423,7 @@ Para usar variables , podemos declara variables en playbooks y usarlas en alguna
 También , podemos usar ficheros que solo contengan variables:
 
 ```bash
+#Sample variable File
 variable1: value1
 variable2: value2
 ```
@@ -429,8 +431,8 @@ variable2: value2
 Ejemplo ficheros variables:
 
 ```bash
--
-  name: Set Firewall Configurations
+---
+- name: Set Firewall Configurations
   hosts: web
   tasks:
   - firewalld :
@@ -600,6 +602,7 @@ Tambien podemos añadir un condicional when a la tarea tasks , para que solo se 
 Revisa el estado del servicio , guarda en ‘register’ una variable llamada ‘result’ con el estado de la tarea(salida del comando se guarda en result) , y enviá email si esta caído(si hace un find de down y NO obtiene -1 , es por que esta caido y down si que lo ha encontrado , de otra forma , si encuentra down , entonces notifica , en caso de no encontrar down , entonces el resultado es -1).
 
 ```bash
+---
 - name: Check status of a service and email if its down
   hosts: localhost
   tasks:
@@ -622,8 +625,8 @@ Los loops sirven para repetir tareas.
 Por ejemplo si tenemos que crear usuarios con el modulo user , podemos correr muchas veces el mismo modulo:
 
 ```bash
--
-  name: Create users
+---
+- name: Create users
   hosts: localhost
   tasks:
    - user: name= “{{ item }}” state=present
@@ -644,8 +647,8 @@ Por ejemplo si tenemos que crear usuarios con el modulo user , podemos correr mu
 También , podemos organizar de otra manera , repitiendo la tarea con un ‘loop’(la ejecución se podria visualizar tarea derecha):
 
 ```bash
--
-  name: Create users
+---
+- name: Create users
   hosts: localhost
   tasks:
    - user: name='{{ item }}' state=present
@@ -666,8 +669,8 @@ También , podemos organizar de otra manera , repitiendo la tarea con un ‘loop
 ```
 
 ```bash
--
-  name: Create users
+---
+- name: Create users
   hosts: localhost
   tasks:
 
@@ -694,8 +697,8 @@ También , podemos organizar de otra manera , repitiendo la tarea con un ‘loop
 En caso de querer pasar 2 valores , se podrían pasar de la siguiente forma(derecha forma visual):
 
 ```bash
--
-  name: Create users
+---
+- name: Create users
   hosts: localhost
   tasks:
    - user: name=‘{{ item.name }}’ state=present uid='{{item.uid}}'
@@ -726,8 +729,8 @@ Antes de existir ‘loops’ , se usaba ‘with_*’.
 Ejemplo:
 
 ```bash
--
-  name: Create users
+---
+- name: Create users
   hosts: localhost
   tasks:
    - user: name='{{ item }}' state=present
@@ -739,8 +742,8 @@ Ejemplo:
 ```
 
 ```bash
--
-  name: Create users
+---
+- name: Create users
   hosts: localhost
   tasks:
    - user: name='{{ item }}' state=present
@@ -754,8 +757,8 @@ Ejemplo:
 Ejemplos:
 
 ```bash
--
-  name: Create users
+---
+- name: Create users
   hosts: localhost
   tasks:
    - user: name='{{ item }}' state=present
@@ -767,8 +770,8 @@ Ejemplos:
 ```
 
 ```bash
--
-  name: View Config FIles
+---
+- name: View Config FIles
   hosts: localhost
   tasks:
    - debug: var=item
@@ -779,8 +782,8 @@ Ejemplos:
 ```
 
 ```bash
--
-  name: Get from multiple URLs
+---
+- name: Get from multiple URLs
   hosts: localhost
   tasks:
    - debug: var=item
@@ -791,8 +794,8 @@ Ejemplos:
 ```
 
 ```bash
--
-  name: Check multiple mongodbs
+---
+- name: Check multiple mongodbs
   hosts: localhost
   tasks:
    - debug: msg="DB={{ item.database }} PID={{ item.pid }}"
@@ -847,6 +850,7 @@ Por ejemplo , cumplir un rol de base de datos , seria instalar y configurar toda
 Tareas muy comunes , se puede crear un playbook:
 
 bash```
+---
 - name: Install and Configure MySQL
   hosts: db-server
   tasks:
@@ -868,6 +872,7 @@ El playbook que hemos creado , se puede usar para instalar tareas de ese mismo p
 De forma que , un playbook , lo usamos como rol , en otro playbook para hacer esas tareas:
 
 bash```
+---
 - name: Install and Configure MySQL
   hosts: db-server1...db-servretr100
   roles:
