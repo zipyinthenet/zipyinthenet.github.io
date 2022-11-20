@@ -58,6 +58,8 @@ layout: default
 * [ command-suite-aircrack-20210418 ](./posts/command-suite-aircrack-20210418.html)
 
 #### CTF
+* [ ctf-recursos-info ](./posts/ctf-recursos-info.html)
+
 #### Gestor de PASSWORDS
 * [ bitwarden-20201101 ](./posts/bitwarden-20201101.html)
 

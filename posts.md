@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ ctf-recursos-info ](./posts/ctf-recursos-info.html)
 * [ ansible-for-begginers ](./posts/ansible-for-begginers.html)
 * [ awx-installation-rocky-linux ](./posts/awx-gitea-installation-rocky-linux.html)
 * [ elasticsearch-sharding-and-replication ](./posts/elasticsearch-sharding-and-replication.html)
