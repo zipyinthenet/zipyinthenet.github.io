@@ -151,6 +151,8 @@ layout: default
 * [ primer-post-20201025 ](./posts/primer-post-20201025.html)
 
 #### Tools/Herramientas
+* [ man-pages-web ](./posts/man-pages-web.html)
+
 #### Estudios
 #### Libros
 #### Podcasts
