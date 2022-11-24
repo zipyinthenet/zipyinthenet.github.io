@@ -7,6 +7,7 @@ layout: default
 
 * * *
 
+* [ design-networks-virtualization ](./posts/design-networks-virtualization.html)
 * [ man-pages-web ](./posts/man-pages-web.html)
 * [ ctf-recursos-info ](./posts/ctf-recursos-info.html)
 * [ ansible-for-begginers ](./posts/ansible-for-begginers.html)

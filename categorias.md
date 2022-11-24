@@ -123,6 +123,8 @@ layout: default
 * * *
 
 ### Planificación y Administración de Sistemas de Red (Redes)
+#### Virtualización de Redes
+* [ design-networks-virtualization ](./posts/design-networks-virtualization.html)
 
 * * *
 
