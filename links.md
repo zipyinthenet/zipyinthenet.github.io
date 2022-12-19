@@ -245,7 +245,10 @@ Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas 
 ------------------------------------------------------------------------------------------------------
 
 ### Aplicaciones Ofimaticas
-#### Procesadores de Texto
+#### Procesadores de Texto y gestores de documentación o toma de notas
+* [sublimetext](https://www.sublimetext.com/x)
+* [joplin](https://joplinapp.org/)
+* [pycharm](https://www.jetbrains.com/es-es/pycharm/)
 #### Hojas de Calculo
 #### Gestores de presentaciones
 #### Gestores de bases de datos
