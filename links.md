@@ -249,10 +249,14 @@ Las siguientes URLS están ordenadas por Lista de diferentes áreas de sistemas 
 * [sublimetext](https://www.sublimetext.com/x)
 * [joplin](https://joplinapp.org/)
 * [pycharm](https://www.jetbrains.com/es-es/pycharm/)
+
 #### Hojas de Calculo
 #### Gestores de presentaciones
 #### Gestores de bases de datos
+
 #### Gestores de correo electrónico
+* [thunderbird](https://www.thunderbird.net/es-ES/)
+* [bluemail](https://bluemail.me/)
 
 ------------------------------------------------------------------------------------------------------
 
